@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Hajrah Washiswa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #FAF4EF;
+      font-family: 'Poppins', sans-serif;
+      color: #333333;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      color: #5E2A84;
+    }
+    .btn-custom {
+      background-color: #DCA95D;
+      color: white;
+    }
+    .btn-custom:hover {
+      background-color: #5E2A84;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Hajrah Washiswa</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Contact</a></li>
+        </ul>
+        <button id="toggle-theme" class="btn btn-sm btn-custom ms-3">Toggle Theme</button>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-5">
+    <h1 class="text-center mb-4">Get in Touch</h1>
+
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-8">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" id="name" class="form-control" placeholder="Enter your name" />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" id="email" class="form-control" placeholder="Enter your email" />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea id="message" rows="4" class="form-control" placeholder="Write something..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-custom px-4">Send Message</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="text-center mb-4">
+      <h2>Find Me Online</h2>
+      <ul class="list-unstyled">
+        <li><a href="https://www.youtube.com/@MurungaHajrah-ng1ol" target="_blank">YouTube Channel</a></li>
+        <li><a href="https://tiktok.com/@murungahajrah" target="_blank">TikTok Profile</a></li>
+        <li><a href="https://hajrah-portfolio.my.canva.site/" target="_blank">Canva Portfolio</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="text-center py-4">
+    <p>&copy; 2025 Hajrah Washiswa</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
